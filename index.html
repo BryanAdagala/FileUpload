@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script type="text/javascript" src="js/upload.js"></script>
+		<script type="text/javascript">
+			window.addEventListener("load", function(){
+				var fileuploader = new FileUploader({
+					parent: "body",
+					url: "filesave.php",
+					maxSize: 1024 * 1024 * 10
+				});
+			}, false);
+		</script>
+		<title>File Upload</title>
+	</head>
+	<body>
+
+	</body>
+</html>
